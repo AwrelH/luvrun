@@ -97,15 +97,15 @@ h1, h2 {
     padding-top: 30px;
     width:33%;
     float:left;
-    border: solid;
-    display:inline-block;
+    
+   
 
 }
 #right-about {
     padding-top: 30px;
     width:33%;
     float:right;
-    border: solid;
+   
     
 }
 #center-about {
@@ -114,6 +114,33 @@ h1, h2 {
     margin: 0 auto;
    
      
-    border: solid;
+    
 
 }
+.left-about-heading {
+    width:60%;
+    float:right;
+    
+    line-height: 20px;
+    clear:both;
+    margin-bottom: 50px;
+}
+hr {
+    border: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+.right-about-heading {
+width:60%;
+float:left;
+
+line-height: 20px;
+clear:both;
+margin-bottom: 50px;
+}
+.right-about-heading h2 {
+text-align: right;
+}
+.right-about-heading h2 p {
+    text-align: right;
+    }
