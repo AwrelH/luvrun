@@ -234,7 +234,7 @@ footer {
 .social-networks i {
     font-size: 160%;
     margin: 5%;
-    padding 1%;
+   
     color: #3a3a3a;
 }
 /* Gallery */
@@ -281,7 +281,7 @@ column-gap:4px;
        clear: both;
        height: 150px;
        padding: 0;
-       
+
     }
 }
 /* For medium screens size from 950px wide and down */
@@ -314,6 +314,15 @@ column-gap:4px;
        padding: 0 20px;
 
    }
-    
+    #photos {
+        column-count: 3;
+    }    
 
 }
+/* For small screens size from 800px wide and down */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+    }
+    
